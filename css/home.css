@@ -1,0 +1,30 @@
+body {
+    margin: 0;  
+}
+
+#intro {
+    position: relative;
+    top: 5px;
+    height: 300px;
+    width: 100%;
+}
+
+#intro_dp {
+    width: 230px;
+    float: left;
+    height: 100%;
+}
+
+#dp_pic{
+    width: 95%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    height: auto;
+}
+
+#intro_txt {
+    float: left;
+    height: fit-content;
+    width: 80%;
+
+}
