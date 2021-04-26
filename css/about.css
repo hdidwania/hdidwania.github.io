@@ -1,0 +1,32 @@
+#about {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    font-size: 20px;
+    padding: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+a {
+    color:black;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+/* 
+#about {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+} */
