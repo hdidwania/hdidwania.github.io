@@ -9,6 +9,7 @@
     margin-left: 10px;
     color: white;
     font-size: 40px;
+    font-family: 'Lobster Two', cursive;
 }
 
 #topbar #options {
@@ -30,6 +31,7 @@
     border-style: solid;
     border-color: black;
     border-width: 1px;
+    font-family: 'Comfortaa', cursive;
 }
 
 #topbar #options #button:hover {
