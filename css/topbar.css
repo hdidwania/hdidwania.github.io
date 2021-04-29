@@ -21,13 +21,13 @@
 }
 
 #topbar #options #button {
-    height: 26px;
+    height: 36px;
     float: left;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 12px;
-    padding-bottom: 10px;
-    font-size: 20px;
+    /* padding-bottom: 10px; */
+    font-size: 25px;
     border-style: solid;
     border-color: black;
     border-width: 1px;
@@ -37,5 +37,6 @@
 #topbar #options #button:hover {
     background-color: white;
     color: black;
+    border-color: white;
+    text-decoration: underline;
 }
-
