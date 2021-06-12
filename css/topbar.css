@@ -15,28 +15,22 @@
 #topbar #options {
     height: 50px;
     float: right;
-    /* background-color: red; */
     margin-right: 20px;
     color: white;
 }
 
 #topbar #options #button {
-    height: 36px;
+    height: 38px;
     float: left;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 12px;
-    /* padding-bottom: 10px; */
     font-size: 25px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
     font-family: 'Comfortaa', cursive;
 }
 
 #topbar #options #button:hover {
     background-color: white;
     color: black;
-    border-color: white;
     text-decoration: underline;
 }
