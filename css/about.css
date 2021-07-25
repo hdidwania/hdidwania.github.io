@@ -57,3 +57,7 @@ a:hover {
     word-spacing: 0.3mm;
     line-height: 6.5mm;
 }
+
+#updates ::selection {
+    background-color: gold;
+}
