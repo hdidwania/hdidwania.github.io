@@ -33,3 +33,8 @@
     color: black;
     text-decoration: underline;
 }
+
+#topbar #options #button.selected {
+    background-color: white;
+    color: black;
+}
