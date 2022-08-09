@@ -24,6 +24,15 @@
             <h1>Thoughts, Reflections and Realisations</h1>
             <hr>
             <p>
+                <b>Aug 8, 2022</b> :
+                <br>
+                With the rise of transformer architectures in Deep Learning, it is interesting to witness the trend toward 
+                relaxing inductive biases in learning. ML went from MLP to domain-specific architectures (CNN, RNN), in order 
+                to incorporate inductive biases which led to improved performance. Now we can see a reversal where transformers 
+                are built to have relaxed forms of inductive biases, and in a way are expected to learn required biases themselves.
+
+            <hr>
+            <p>
                 <b>May 12, 2022</b> :
                 <br>
                 While solving algorithmic problems of the type where we need intervals or two indices- say binary search, I would often get confused about how to define invalid conditions.
@@ -34,7 +43,8 @@
                 would be <code>left > right</code>. (Notice the difference is the presence of equality). Why so? Because in the first case, the condition <code>left == right</code> would
                 mean an interval <code>[left, left)</code> which is an empty set.
             </p>
-            <hr><p>
+            <hr>
+            <p>
                 <b>May 05, 2022</b> :
                 I am trying to immplement a neural network from <a href="https://github.com/hdidwania/ml-from-scratch">scratch</a>. Forward pass, backward prop, all
                 just using NumPy. In my implementation, I was trying to use batch size as the first dimension of my vectors, e.g. an input vector in form of <code>(b, 128)</code>.
