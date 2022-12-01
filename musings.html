@@ -38,20 +38,20 @@
                 While solving algorithmic problems of the type where we need intervals or two indices- say binary search, I would often get confused about how to define invalid conditions.
                 E.g. in an iteration for binary search, we should ignore the case where the interval defined by left and right indices is such that the left index is further right
                 than the right index. Recently, I came up with an interesting realization- a trick to help me get clarity. All I need to do is define if the interval I am considering is
-                open or close. This can easily help me determine if an interval defined by left and right is valid or not. For E.g. let's say the interval is left close and right open:
-                <code>[left, right)</code>. In this case the condition <code>left >= right</code> is invalid. Whereas, the invalid condition for interval <code>[left, right]</code>
+                open or closed. This can easily help me determine if an interval defined by left and right is valid or not. For E.g. let's say the interval is left close and right open:
+                <code>[left, right)</code>. In this case, the condition <code>left >= right</code> is invalid. Whereas, the invalid condition for the interval <code>[left, right]</code>
                 would be <code>left > right</code>. (Notice the difference is the presence of equality). Why so? Because in the first case, the condition <code>left == right</code> would
                 mean an interval <code>[left, left)</code> which is an empty set.
             </p>
             <hr>
             <p>
                 <b>May 05, 2022</b> :
-                I am trying to immplement a neural network from <a href="https://github.com/hdidwania/ml-from-scratch">scratch</a>. Forward pass, backward prop, all
+                I am trying to implement a neural network from <a href="https://github.com/hdidwania/ml-from-scratch">scratch</a>. Forward pass, backward prop, all
                 just using NumPy. In my implementation, I was trying to use batch size as the first dimension of my vectors, e.g. an input vector in form of <code>(b, 128)</code>.
                 But something seemed wrong with this. After some thought, a realization hit. Using this format breaks down the general intuition of Linear Algebra in some sense.
                 This notation treats every sample as a row matrix, rather than a vertical vector. And from here, everything starts breaking down. Now the weight matrix should be on
                 the right side; <code>y = np.dot(x, W)</code>, which doesn't translate to the view that <code>W</code> is <i>acting upon</i> <code>x</code>.
-                Although some implementation tricks can work with this, I really liked this realization, and understood how the index representing batch can make
+                Although some implementation tricks can work with this, I really liked this realization and understood how the index representing batch can make
                 such a difference.
                 <br>
             </p>
